@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.container{
+    width: min(100%, 1200px);
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.gallery{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box{
+    background-color: rgb(60,60,60);
+    color:rgb(240, 240, 240);
+    font-size: 64px;
+    border-radius: 16px;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+    aspect-ratio: 1/1;
+}
